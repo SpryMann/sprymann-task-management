@@ -1,0 +1,22 @@
+.banner {
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  height: 15rem;
+  background: #5f33e1;
+}
+
+.banner__suptitle {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.banner__title {
+  font-family: "Poppins Bold";
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 0.05rem;
+}

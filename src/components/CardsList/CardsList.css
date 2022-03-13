@@ -1,0 +1,31 @@
+.section {
+  margin-bottom: 2rem;
+}
+
+.section__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins Bold";
+  font-size: 1.8rem;
+}
+
+.section__count {
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  padding: 0.2rem 1rem;
+  font-family: "Poppins Bold";
+  font-size: 1.2rem;
+  color: #f778ba;
+  background: rgba(247, 120, 186, 0.25);
+}

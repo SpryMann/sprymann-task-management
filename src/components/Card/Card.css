@@ -1,0 +1,234 @@
+.card-wrap {
+  position: relative;
+  height: 8rem;
+}
+
+.card-wrap .card-status {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-wrap .card-status .status__button {
+  padding: 1.5rem;
+  width: 50%;
+  height: 100%;
+}
+
+.card-wrap .card-status .status__button--left {
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-wrap .card-status .status__button--right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
+}
+
+.card-wrap .card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.6rem rgba(4, 3, 22, 0.25);
+  -moz-box-shadow: 0.1rem 0.1rem 0.6rem rgba(4, 3, 22, 0.25);
+  box-shadow: 0.1rem 0.1rem 0.6rem rgba(4, 3, 22, 0.25);
+}
+
+.card__suptitle {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: rgba(4, 3, 22, 0.5);
+}
+
+.card__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: "Poppins Medium";
+  font-size: 1.6rem;
+}
+
+.card__title .circle {
+  margin-left: 1rem;
+}
+
+.card__subtitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgba(4, 3, 22, 0.5);
+}
+
+.card__subtitle .icon--calendar {
+  margin-right: 0.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.card__subtitle .icon--calendar path {
+  fill: rgba(4, 3, 22, 0.5);
+}
+
+.card__circle {
+  margin-right: 0.5rem;
+}
+
+.card__text {
+  width: -webkit-calc(100% - 6.5rem);
+  width: -moz-calc(100% - 6.5rem);
+  width: calc(100% - 6.5rem);
+}
+
+.card--square {
+  min-width: 15rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+.card--gray {
+  background: #ebe4ff;
+}
+
+.card--lane {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.progress {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.progress__border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem;
+  height: 5rem;
+  overflow: visible;
+}
+
+.progress__border circle {
+  stroke: #5f33e1;
+  stroke-width: 0.2rem;
+  stroke-dasharray: 156;
+  stroke-dashoffset: 47;
+  fill: none;
+}
+
+.progress__percent {
+  font-family: "Poppins Medium";
+  font-size: 1.6rem;
+}

@@ -1,0 +1,51 @@
+.project {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  height: 15rem;
+  color: #ffffff;
+}
+
+.project__suptitle {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.project__title {
+  font-family: "Poppins Medium";
+  font-size: 1.6rem;
+}
+
+.project--dark-color {
+  color: #040316;
+}
+
+.project--pink {
+  background: #f778ba;
+}
+
+.project--purple {
+  background: #5f33e1;
+}
+
+.project--yellow {
+  background: #ffe5a4;
+}
